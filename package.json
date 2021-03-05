@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/randyaajr/portfolio-randy/issues"
   },
-  "homepage": "https://github.com/randyaajr/portfolio-randy#readme"
+  "homepage": "https://github.com/randyaajr/portfolio-randy#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
