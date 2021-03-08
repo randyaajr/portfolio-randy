@@ -1,0 +1,6 @@
+.bg-light {
+  background-color: #426979 !important; }
+  .bg-light .navbar-brand {
+    color: #fff; }
+  .bg-light .navbar-nav li a {
+    color: #fff !important; }
