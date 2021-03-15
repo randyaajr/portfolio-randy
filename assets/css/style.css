@@ -2,6 +2,13 @@
 # General
 --------------------------------------------------------------*/
 
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #272829;
@@ -81,11 +88,11 @@ h6 {
     border: 6px solid #bb0505;
     border-top-color: #fff;
     border-bottom-color: #fff;
-    border-radius: 50px 15px;
+    border-radius: 75% 25px;
     width: 60px;
     height: 60px;
-    -webkit-animation: animate-preloader 1s linear infinite;
-    animation: animate-preloader 1s linear infinite;
+    -webkit-animation: animate-preloader 0.75s linear infinite;
+    animation: animate-preloader 0.75s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
@@ -105,7 +112,6 @@ h6 {
         transform: rotate(360deg);
     }
 }
-
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
