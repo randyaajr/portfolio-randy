@@ -666,7 +666,8 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-    color: #148af9;
+    color: #bb0505;
+    transform: scale(1.1);
 }
 
 .portfolio .portfolio-wrap:hover::before {
