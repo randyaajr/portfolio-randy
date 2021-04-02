@@ -960,6 +960,8 @@ section {
 
 .contact .email-form button[type="submit"]:hover {
     background: #bb0505b0;
+    transform: scale(1.1);
+
 }
 
 @-webkit-keyframes animate-loading {
