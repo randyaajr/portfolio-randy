@@ -3,10 +3,12 @@
 --------------------------------------------------------------*/
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-*::before, *::after {
-  box-sizing: border-box;
+
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
@@ -63,7 +65,6 @@ h6 {
     background: #bb0505b0;
     transition: background 0.2s ease-in-out;
     transform: scale(1.1);
-
 }
 
 
@@ -115,6 +116,7 @@ h6 {
     }
 }
 
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -122,6 +124,57 @@ h6 {
 @media screen and (max-width: 768px) {
     [data-aos-delay] {
         transition-delay: 0 !important;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Whatsapp app
+--------------------------------------------------------------*/
+
+
+/* for desktop */
+
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 15px;
+    left: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    transition: display 0.5s ease-in-out;
+    z-index: 100;
+}
+
+.whatsapp_float:hover {
+    color: #fff;
+    background: #25d365d5;
+    transition: background 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.whatsapp-icon {
+    margin-top: 16px;
+}
+
+
+/* for mobile */
+
+@media screen and (max-width: 767px) {
+    .whatsapp-icon {
+        margin-top: 10px;
+    }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 15px;
+        left: 10px;
+        font-size: 22px;
     }
 }
 
@@ -431,6 +484,7 @@ section {
     margin-bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -566,7 +620,6 @@ section {
 .portfolio #portfolio-flters li.filter-active {
     color: #bb0505;
     transform: scale(1.1);
-
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -964,7 +1017,6 @@ section {
 .contact .email-form button[type="submit"]:hover {
     background: #bb0505b0;
     transform: scale(1.1);
-
 }
 
 @-webkit-keyframes animate-loading {
@@ -1103,7 +1155,6 @@ section {
     color: #fff;
     text-decoration: none;
     transform: scale(1.5);
-
 }
 
 #footer .copyright {
