@@ -153,13 +153,24 @@ h6 {
 
 .whatsapp_float:hover {
     color: #fff;
-    background: #25d365d5;
     transition: background 0.2s ease-in-out;
     transform: scale(1.1);
 }
 
 .whatsapp-icon {
     margin-top: 16px;
+}
+
+.whatsapp-icon:hover {
+    animation: beat 2s linear infinite;
+}
+
+@keyframes beat {
+    50%  {
+        transform: scale(1.2);
+        color: #bb0505;
+
+    }
 }
 
 
@@ -188,7 +199,7 @@ h6 {
     top: 0;
     left: 0;
     bottom: 0;
-    z-index: 9997;
+    z-index: 99;
     transition: all 0.5s;
     padding: 15px;
     overflow-y: auto;
