@@ -34,6 +34,10 @@ h6 {
     font-family: "Raleway", sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
 
 /*--------------------------------------------------------------
 # Back to top button
