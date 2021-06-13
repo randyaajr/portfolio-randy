@@ -595,7 +595,7 @@ section {
     border-radius: 50px 15px;
     left: -9px;
     top: 0;
-    background: #bb0505;
+    background: #fff;
     border: 2px solid #bb0505;
     animation: resBeat 2s linear infinite;
 }
