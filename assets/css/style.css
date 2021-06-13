@@ -588,11 +588,18 @@ section {
     position: absolute;
     width: 16px;
     height: 16px;
-    border-radius: 50px;
+    border-radius: 50px 15px;
     left: -9px;
     top: 0;
-    background: #fff;
+    background: #bb0505;
     border: 2px solid #bb0505;
+    animation: resBeat 2s linear infinite;
+}
+
+@keyframes resBeat {
+    50%  {
+        transform: scale(1.2);
+    }
 }
 
 
