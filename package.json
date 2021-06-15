@@ -2,7 +2,7 @@
     "name": "portfolio-randy",
     "version": "1.0.0",
     "description": "portfolio website",
-    "main": "index.js",
+    "main": "script.js",
     "scripts": {
         "compile:sass": "node-sass sass/main.scss css/style.css -w"
     },
@@ -22,5 +22,6 @@
     "homepage": "https://github.com/randyaajr/portfolio-randy#readme",
     "devDependencies": {
         "node-sass": "^5.0.0"
-    }
+    },
+    "dependencies": {}
 }
