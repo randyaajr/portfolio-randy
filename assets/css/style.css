@@ -828,7 +828,7 @@ section {
 
 .services .icon-box:hover {
     border-color: #fff;
-    box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.123);
 }
 
 .services .iconbox-blue i {
