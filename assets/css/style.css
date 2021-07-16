@@ -98,17 +98,7 @@ h6 {
   border-radius: 75% 25px;
   width: 60px;
   height: 60px;
-  -webkit-animation: animate-preloader 0.75s linear infinite;
   animation: animate-preloader 0.75s linear infinite;
-}
-
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes animate-preloader {
@@ -126,7 +116,7 @@ h6 {
 
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay: 0.1s !important;
   }
 }
 
@@ -1057,15 +1047,6 @@ section {
   transform: scale(1.1);
 }
 
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1161,7 +1142,7 @@ section {
 }
 
 #footer p {
-  font-size: 15;
+  font-size: 15px;
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
